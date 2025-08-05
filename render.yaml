@@ -2,7 +2,7 @@ services:
   - type: web
     name: Rrr
     env: docker
-    repo: https://github.com/Ankitrana123456/Rrr
+    repo: https://github.com/Ankitrana123456/Rrr.git
     branch: main
     plan: free
     region: oregon
