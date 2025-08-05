@@ -131,5 +131,7 @@ async def main():
     print("🤖 Telegram Bot is Running...")
     await app.run_polling()
 
-if __name__ == "__main__":
+if __name__ == '__main__':
+    import nest_asyncio
+    nest_asyncio.apply()
     asyncio.run(main())
