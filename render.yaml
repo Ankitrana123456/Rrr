@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: Rrr
+    env: docker
+    repo: https://github.com/Ankitrana123456/Rrr
+    branch: main
+    plan: free
+    region: oregon
